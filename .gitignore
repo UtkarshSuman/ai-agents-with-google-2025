@@ -1,0 +1,109 @@
+# -------------------------------
+# 🧠 Python (Agent Logic, Memory, Context)
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+*.sqlite3
+*.db
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# -------------------------------
+# 📓 Jupyter & Experiments
+# -------------------------------
+.ipynb_checkpoints/
+*.ipynb~
+notebooks/.ipynb_checkpoints/
+logs/
+*.log
+*.tmp
+
+# -------------------------------
+# ⚙️ Node.js / MCP Tools
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment files (API keys, secrets, etc.)
+.env
+.env.*
+!.env.example
+
+# -------------------------------
+# 📊 Agent Quality / Tracing Data
+# -------------------------------
+logs/
+traces/
+metrics/
+reports/
+*.jsonl
+
+# -------------------------------
+# 🚀 Deployment / Day 5 (Prototype → Production)
+# -------------------------------
+build/
+dist/
+output/
+tmp/
+.cache/
+*.tar.gz
+*.zip
+*.bak
+*.old
+
+# -------------------------------
+# 🧰 IDE & Editor Configs
+# -------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# 🧩 Datasets & Model Files
+# -------------------------------
+data/
+datasets/
+models/
+checkpoints/
+*.csv
+*.tsv
+*.json
+*.yaml
+*.yml
+
+# -------------------------------
+# 🖼️ Media / Assets
+# -------------------------------
+images/
+videos/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# -------------------------------
+# 🔐 Security
+# -------------------------------
+credentials/
+secrets/
+api_keys/
